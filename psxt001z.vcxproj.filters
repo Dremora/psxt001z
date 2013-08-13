@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="derus.cpp">
+    <ClCompile Include="functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="functions.cpp">
+    <ClCompile Include="info.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="libcrypt.cpp">
@@ -30,6 +30,9 @@
     <ClCompile Include="md5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="scramble.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="sha1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -38,10 +41,10 @@
     <ClInclude Include="common.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="derus.h">
+    <ClInclude Include="functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="functions.h">
+    <ClInclude Include="info.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="libcrypt.h">

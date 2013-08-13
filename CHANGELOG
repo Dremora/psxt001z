@@ -1,9 +1,14 @@
+v0.21 beta 1, 2008-02-27
+ - Removed old unneeded functions: --derus, --makederus, --build and --makechk (use ImageDIFF instead).
+ - Removed full image scanning and fixing.
+ - Expanded postgap fixing features.
+
 v0.20 beta 13
  - Fixed bug in derus code.
 
 v0.20 beta 12, 2007-05-27
- - Changed subchannels reading mode from 010b to 001b (libcryptdrv.c).
+ - Changed subchannels reading mode from 010b to 001b (libcrypt.c).
 
 v0.20 beta 11, 2007-05-24
- - Added lcdetect (libcryptdrv.c).
- - Several fixes in libcrypt.c and libcryptdrv.c.
+ - Added lcdetect (--libcryptdrv function).
+ - Several other fixes in libcrypt.c.

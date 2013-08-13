@@ -64,17 +64,18 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="derus.cpp" />
     <ClCompile Include="functions.cpp" />
+    <ClCompile Include="info.cpp" />
     <ClCompile Include="libcrypt.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="md5.cpp" />
+    <ClCompile Include="scramble.cpp" />
     <ClCompile Include="sha1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="common.h" />
-    <ClInclude Include="derus.h" />
     <ClInclude Include="functions.h" />
+    <ClInclude Include="info.h" />
     <ClInclude Include="libcrypt.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="md5.h" />

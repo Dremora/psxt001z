@@ -22,13 +22,13 @@ typedef unsigned __int64 u64;
 #include "main.h"
 #include "functions.h"
 #include "libcrypt.h"
-#include "derus.h"
 #include "sha1.h"
 #include "md5.h"
+#include "info.h"
 
 #define WIN32_LEAN_AND_MEAN
 #define ZERO 0
-#define VERSION "v0.20 beta 13 derus fix"
+#define VERSION "v0.21 beta 1"
 #define btoi(b)		((b)/16*10 + (b)%16)		/* BCD to u_char */
 #define itob(i)		((i)/10*16 + (i)%10)		/* u_char to BCD */
 
